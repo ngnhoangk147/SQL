@@ -1,3 +1,5 @@
+-- Table Schema: https://support.google.com/analytics/answer/3437719?hl=en
+
 -- Query 01: calculate total visit, pageview, transaction and revenue for Jan, Feb and March 2017 order by month
 WITH query01 AS
 (SELECT totals.visits, 
